@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anant_Sanatan</title>
+  <link rel="icon" href="Anant_Sanatan.jpg" type="image/x-icon" />
+
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="new.css">
+</head>
+
+<body>
+  <!-- Background Image (replace 'your-image.jpg' with your actual image) -->
+  <div id="background"></div>
+  
+  <!-- Dark overlay over the background -->
+  <div class="overlay"></div>
+
+  <div class="fixed top-6 right-6 z-20">
+    <button class="About" onclick="openAboutMe()">About the Developer</button>
+  </div>
+
+  <!-- Sanatani-themed chatbot container -->
+  <div id="chatbox-container">
+    <button class="sanatani-button" onclick="botpress.open()">Open Chat</button>
+    <button class="sanatani-button" onclick="botpress.close()">Close Chat</button>
+  </div>
+  <div id="chatbox-container">
+    <button class="sanatani-button" onclick="botpress.open()">Open Chat</button>
+    <button class="sanatani-button" onclick="botpress.close()">Close Chat</button>
+  </div>
+
+  <!-- Botpress Webchat Integration -->
+  <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
+  <script src="https://files.bpcontent.cloud/2024/10/08/09/20241008095714-SO3K7PQ3.js"></script>
+
+  <script>
+    function openAboutMe() {
+        alert("Ishan Mishra is an engineering student with an insatiable curiosity for technology. His journey into the world of coding began with a fascination for innovation and how things work. When he’s not coding, Ishan explores new places, captures moments in vlogs, and immerses himself in hip-hop music. He’s a storyteller and dreamer, eager to connect with others to create something extraordinary");
+        // You can add more functionality to show your About Me content here
+    }
+  </script>
+
+</body>
+
+</html>

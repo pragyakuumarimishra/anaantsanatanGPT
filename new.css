@@ -1,0 +1,39 @@
+/* Sanatani-inspired button (existing CSS) */
+.About {
+    background: linear-gradient(135deg, #f4b942, #d49037);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 3px solid #b39f58;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    font-size: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.About::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75px;
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.05));
+    transform: skewX(-45deg);
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.About:hover::before {
+    opacity: 1;
+    left: 100%;
+}
+
+.About:hover {
+    transform: scale(1.05);
+}
