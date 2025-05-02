@@ -1,6 +1,6 @@
 # Anant_Sanatan Personal Webpage
 
-This is a personal webpage project titled "Anant_Sanatan" created by Ishan Mishra, an engineering student with a passion for technology, storytelling, and hip-hop music.
+This is a personal webpage project titled "Anant_Sanatan" created by pragya Mishra, an engineering student with a passion for technology, storytelling, and hip-hop music.
 
 ## Project Overview
 
